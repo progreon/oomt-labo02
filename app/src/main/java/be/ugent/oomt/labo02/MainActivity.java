@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("Lifecycle", "MainActivity.onCreate()");
-        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            DetailFragment details = new DetailFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().add(R.id.container, details).commit();
-        }
+//        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+//            DetailFragment details = new DetailFragment();
+//            FragmentManager fm = getSupportFragmentManager();
+//            fm.beginTransaction().add(R.id.container, details).commit();
+//        }
 //        View detailsFrame = findViewById(R.id.container);
 //        Log.i(MainActivity.class.getCanonicalName(), "detailsFrame: " + detailsFrame);
 //        DetailFragment details = new DetailFragment();

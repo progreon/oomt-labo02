@@ -14,13 +14,13 @@
     <fragment
         android:id="@+id/fragMain"
         android:name="be.ugent.oomt.labo02.MainFragment"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
     <FrameLayout
         android:id="@+id/container"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3" />
 </LinearLayout>
